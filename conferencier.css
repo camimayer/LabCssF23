@@ -1,4 +1,53 @@
-footer {
-    text-align: left;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+header {
+    background-color: rgb(47, 64, 85);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+   
 }
 
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+section {
+    width: 60%;
+    align-content: center;
+    display: grid;
+    margin-right: 10px;
+}
+section p {
+    text-align: right;
+    font-size: 25px;
+    color:rgb(89, 121, 89) ;
+    
+}
+
+
+section a {
+    text-decoration: none;
+    color: white;
+}
+section div {
+    display: flex;
+    gap: 2rem;
+    height: max-content;
+    justify-content: flex-end;
+    
+}
+h1 {
+    width: 40%;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body div {
+    background-color: rgb(47, 64, 85);
+    color: white;
+}
+div h2 {
+    color:rgb(89, 121, 89) ;
+}
