@@ -180,3 +180,194 @@ footer p {
     justify-self: center;
     gap: 3rem;
 }
+
+.venue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  color: rgb(135, 131, 131);
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.venue div h3 {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.venue div iframe {
+  width: 660px;
+  height: 330px;
+  border: 0;
+
+}
+
+.achat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  color: rgb(135, 131, 131);
+  margin-top: 45px;
+  margin-bottom: 55px;
+}
+
+.texte {
+  justify-content: left;
+  }
+
+.texte h6 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+  .texte ul li {
+    margin-left: -10px;
+  }
+
+  .prix {
+    margin-bottom: 30px;
+  }
+
+.formulaire {
+  width: 260px;
+  justify-content: right;
+}
+
+form input {
+  padding: 6px;
+}
+
+.acheter {
+  color: white;
+  background-color: rgba(15, 48, 36, 0.575);
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 7px;
+  width: 130px;
+}
+
+.col1{
+  margin-left: 580px;
+}
+
+div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 30px;
+  gap: 4rem;
+  }
+
+div1 span{
+  font-size: 30px;
+  margin-left: -75px;
+}
+
+div11 span{
+  font-size: 30px;
+  margin-left: -35px;
+}
+
+div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 30px;
+  gap: 5rem;
+}
+
+div3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 30px;
+  gap: 5rem;
+}
+
+div5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5rem;
+}
+
+div6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5rem;
+  margin-top: 30px;
+}
+
+div7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5rem;
+  margin-top: 30px;
+}
+
+div9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5rem;
+}
+
+div11 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 4rem;
+  margin-top: 30px;
+}
+
+div12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5rem;
+  margin-top: 30px;
+}
+
+div13 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5rem;
+  margin-top: 30px;
+}
+
+div15 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5rem;
+}
+
+div16 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5rem;
+  margin-top: 30px;
+}
+
+div17 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5rem;
+  margin-top: 30px;
+}
+
+div19 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5rem;
+}
