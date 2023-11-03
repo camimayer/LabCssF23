@@ -371,3 +371,51 @@ div19 {
   justify-content: left;
   gap: 5rem;
 }
+.conference-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4rem;
+  
+}
+.conference-img {
+  width:fit-content;
+  border: 1px solid rgb(226, 224, 224);
+  height: fit-content;
+  align-self: center;
+  width: 418px;
+  justify-content: center;
+  
+ 
+
+}
+.conference-img a {
+  color: gray;
+  position: relative;
+  bottom: 30px;
+    text-align: center;
+  
+
+}
+.conference-img img {
+  position: relative;
+  top: -50px;
+}
+.tout {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#conf1 {
+  font-family: "Montserrat", sans-serif;
+  width: fit-content;
+  
+}
+.title-1 {
+  color: rgb(38, 83, 38);
+}
+.title-2 {
+  color: rgb(135, 131, 131);
+}
+.text {
+  font-size: 12px;
+}
