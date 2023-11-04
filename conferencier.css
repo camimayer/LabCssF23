@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 header {
+
+    /* Authors : Camila Mayer
+               Flavio Ricardo */
     background-color: rgb(47, 64, 85);
     color: white;
     flex-direction: row; 
@@ -19,33 +22,43 @@ section {
   margin-right: 10px;
 }
 section p {
+  margin-top: 50px;
+  margin-bottom: 10px;
   text-align: right;
-  font-size: 25px;
+  font-size: 22px;
   color: rgb(89, 121, 89);
 }
 
-section a {
-  text-decoration: none;
-  color: white;
-}
+
 section div {
   display: flex;
-  gap: 2rem;
+  gap: 20px;
   height: max-content;
   justify-content: flex-end;
+  padding: 2px;
 }
 
 section div a{
-    font-size: 12px;
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  padding: 2px;
   }
+
+section div a:hover {
+  background-color:  white;
+  color: rgb(47, 64, 85);
+  
+}
 
 h1 {
   width: 40%;
   margin-left: 10px;
-  margin-top: 0px;
+  margin-top: 30px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 0px;
-  font-size: 3rem;
+  font-size: 25;
+  font-weight: lighter;
 }
 
 div h2 {
@@ -60,7 +73,7 @@ div h2 {
 }
 .backgroundcolor h2 {
   margin-top: 0px;
-  font-size: 35px;
+  font-size: 28px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 0;
 }
@@ -74,27 +87,53 @@ div h2 {
   line-height: 40px;
   margin-top: 0;
 }
-.backgroundcolor button {
+
+.backgroundcolor button{
+  background-color: transparent;
+  border: none;
+}
+
+.backgroundcolor input {
   background-color: transparent;
   padding: 20px;
   border: 1px solid white;
   border-radius: 5px;
-}
-.backgroundcolor a {
-  text-decoration: none;
   color: white;
+  cursor: pointer;
+  }
+
+.backgroundcolor input:hover {
+  background-color:  white;
+  color:  rgb(47, 64, 85);
 }
+
 .header-table {
   color: gray;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: bolder;
+  
 }
 .table-link {
   text-decoration: none;
   color: gray;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 0;
+}
+
+.table-link img {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.table-link img:hover {
+  opacity: 0.9;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
 }
 
 table {
@@ -110,34 +149,43 @@ table {
   font-size: 12px;
 }
 
+table tr td {
+  padding-inline: 7px;
+}
+
 footer {
   background-color: rgb(47, 64, 85);
   display: flex;
   flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  height: 70px;
-  align-items: end;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: auto;
+  justify-content: center;
+  height: 85px;
+  align-items: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  margin-top: 30px;
+  font-size: 13px;
+  margin-top: 37px;
+  gap: 280px;
 }
-footer section {
+footer liens {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 15px;
   height: fit-content;
   justify-content: flex-end;
 }
-footer section a {
-  height: fit-content;
+footer liens a {
+  text-decoration: none;
+  color: white;
+  padding: 2px;
 }
+
+footer liens a:hover {
+  background-color:  white;
+  color: black;
+  padding: 2px;
+}
+
 footer p {
-  margin: 0;
+  font-weight: bold;
   color: rgb(89, 121, 89);
 }
 .vert {
@@ -187,12 +235,13 @@ footer p {
   justify-content: center;
   gap: 4rem;
   color: rgb(135, 131, 131);
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 95px;
+  margin-bottom: 95px;
 }
 .venue div h3 {
   font-size: 22px;
-  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .venue div iframe {
@@ -258,130 +307,178 @@ form input {
 }
 
 .col1{
-  margin-left: 580px;
+  color: gray;
+
+}
+
+.col1 a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+}
+
+.col1 a:hover {
+  border: 2px solid gray;
+}
+
+programme{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
 }
 
 div1 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  /* justify-content: center; */
   margin-top: 30px;
-  gap: 4rem;
+  margin-left: 23%;
+  gap: 5rem;
   }
 
 div1 span{
   font-size: 30px;
-  margin-left: -75px;
+  /* margin-left: -75px; */
 }
 
 div11 span{
   font-size: 30px;
-  margin-left: -35px;
+  /* margin-left: -35px; */
 }
 
 div2 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  /* justify-content: center; */
   margin-top: 30px;
   gap: 5rem;
-}
+  margin-left: 27%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-right: 26%;
+  }
 
 div3 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   margin-top: 30px;
   gap: 5rem;
+  margin-left: 27%;
+  /* border-top: 1px solid gray; */
+  margin-right: 26%;
 }
 
 div5 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   gap: 5rem;
-}
+  }
 
 div6 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  /* justify-content: center; */
   gap: 5rem;
   margin-top: 30px;
+  margin-left: 27%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-right: 26%;
 }
 
 div7 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   gap: 5rem;
   margin-top: 30px;
+  margin-left: 27%;  
+  /* border-top: 1px solid gray; */
+  margin-right: 26%;
 }
 
 div9 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   gap: 5rem;
 }
 
 div11 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  /* justify-content: center; */
   gap: 4rem;
   margin-top: 30px;
+  margin-left: 26%; 
 }
 
 div12 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  /* justify-content: center; */
   gap: 5rem;
   margin-top: 30px;
+  margin-left: 27%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-right: 26%;
 }
 
 div13 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   gap: 5rem;
   margin-top: 30px;
+  margin-left: 27%;  
+  /* border-top: 1px solid gray; */
+  margin-right: 26%;
 }
 
 div15 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   gap: 5rem;
 }
 
 div16 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  /* justify-content: center; */
   gap: 5rem;
   margin-top: 30px;
+  margin-left: 27%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-right: 26%;
 }
 
 div17 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   gap: 5rem;
   margin-top: 30px;
+  margin-left: 27%;
+  /* border-top: 1px solid gray; */
+  margin-right: 26%;
 }
 
 div19 {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   gap: 5rem;
 }
 .conference-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   gap: 4rem;
   
 }
@@ -390,7 +487,7 @@ div19 {
   border: 1px solid rgb(226, 224, 224);
   height: fit-content;
   align-self: center;
-  width: 418px;
+  width: 200px;
   justify-content: center;
   
  
@@ -400,10 +497,16 @@ div19 {
   color: gray;
   position: relative;
   bottom: 30px;
-    text-align: center;
-  
-
+  text-align: center;
+  text-decoration: none;
+  padding: 4%;
 }
+
+.conference-img a:hover {
+  border: 1px solid gray;
+  padding: 3%;
+}
+
 .conference-img img {
   position: relative;
   top: -50px;
